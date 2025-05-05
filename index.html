@@ -132,7 +132,7 @@
 
         #Zain {
             height: 450px;
-            background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(rs=w_1535\,m\ \(1\).webp);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(rs=w_1535\,m\ \(1\).webp);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -143,10 +143,9 @@
             justify-content: center;
             gap: 10px;
         }
-        
+
         @media (min-width: 768px) {
-            #Zain {
-            }
+            #Zain {}
         }
 
         #square {
@@ -193,7 +192,13 @@
             font-size: 32px;
             font-weight: bolder;
             color: white;
+            border-bottom: rgb(11, 11, 59) solid 5px;
+            border-radius: 20px;
+            opacity: 20px;
+            width: 450px;
+            width: min(450px, 100%);
         }
+
 
         #email:focus {
             outline: none;
@@ -436,9 +441,7 @@
         <div id="farhana" style="text-align: center; " class="mb-3 text-white  ">
             <label for="">Email address</label>
             <br>
-            <input id="email"
-                style="border-bottom: rgb(11, 11, 59) solid 5px; border-radius:20px; opacity: 20px; width:450px "
-                type="text" class="py-1 mb-3">
+            <input id="email" type="text" class="py-1 mb-3">
             <Br>
             <div class="">
                 <div class="container-fluid">
