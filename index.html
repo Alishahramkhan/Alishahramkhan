@@ -131,25 +131,34 @@
         }
 
         #Zain {
-            background-image: url(rs=w_1535\,m\ \(1\).webp);
-            height: 376px;
+            height: 450px;
+            background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(rs=w_1535\,m\ \(1\).webp);
             background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
-            background-position: 0px -315px;
             margin-bottom: 30px;
             position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        @media (min-width: 768px) {
+            #Zain {
+            }
         }
 
         #square {
-            width: 100px;
+            width: 70px;
+            aspect-ratio: 1;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100px;
             background-color: #fff;
             transform: rotate(45deg);
             position: absolute;
-            bottom: calc(0px - 80px);
+            bottom: calc(0px - 40px);
             left: calc(50% - 50px);
         }
 
